@@ -104,14 +104,14 @@ const kTextStyleSubtitle2b = TextStyle(
 
 const kTextStyleSubtitle4b = TextStyle(
    color: Colors.black54,
-  fontSize: 16,
+  fontSize: 20,
   fontWeight: FontWeight.w500,
   fontFamily: 'NunitoSans',
 );
 
 const kTextStyleBody2b = TextStyle(
   color: Colors.black,
-  fontSize: 12,
+  fontSize: 16,
   fontWeight: FontWeight.w200,
   fontFamily: 'NunitoSans',
 );

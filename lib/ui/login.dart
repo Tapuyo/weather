@@ -23,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         // ignore: prefer_const_literals_to_create_immutables
         children: [
-          const Icon(Icons.cloud,size: 50, color: Colors.amberAccent,),
+          const Icon(Icons.cloud,size: 100, color: Colors.amberAccent,),
           const Text(
             'Weather Forecast',
             style: kTextStyletitle,
@@ -39,6 +39,7 @@ class _LoginPageState extends State<LoginPage> {
               padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
               text: 'Login with Github',
               onPressed: () {
+                
                 signInWithGitHub(context);
               },
             ),

@@ -5,10 +5,11 @@ class WeatherModel {
   final double feelsLike;
   final double tempMin;
   final double tempMax;
-  final double pressure;
-  final double humidity;
+  final int pressure;
+  final int humidity;
   final double windSpeed;
-  final double windDeg;
+  final int windDeg;
+  final String name;
 
   WeatherModel(
       this.weather,
@@ -21,5 +22,6 @@ class WeatherModel {
       this.humidity,
       this.windSpeed,
       this.windDeg,
+      this.name
   );
 }

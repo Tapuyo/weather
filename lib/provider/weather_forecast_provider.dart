@@ -1,42 +1,30 @@
 import 'package:flutter/foundation.dart';
+import 'package:weather/models/weather_model.dart';
 
-class WeatherProvider with ChangeNotifier{
-  String dailyID = '';
+class WeatherProvider with ChangeNotifier {
   bool refresh = false;
-  DateTime selectedDate = DateTime.now();
+  String searchText = '';
 
-  DateTime  get dateSelect => selectedDate; 
+  bool get isRefresh => refresh;
 
-  bool  get isRefresh => refresh; 
+  String get searchString => searchText;
 
-  String  get dailyIDSelected => dailyID; 
+  WeatherModel? weather;
 
-  // DailyModel?  get dailyDetails => daily; 
+  WeatherModel? get weatherForecast => weather;
 
-  // List<DailyModel> get myDailyList => dailyList;
-
-  // void setDailyList(List<DailyModel> dailyListValue) {
-  //   dailyList = dailyListValue;
-  //   notifyListeners();
-  // }
-
-  void setDailyId(String value) {
-    dailyID = value;
+  void setWeather(WeatherModel value) {
+    weather = value;
     notifyListeners();
   }
 
-  // void setDailyDetails(DailyModel value) {
-  //   daily = value;
-  //   notifyListeners();
-  // }
+  void setSearchString(String value) {
+    searchText = value;
+    notifyListeners();
+  }
 
   void setRefresh(bool value) {
     refresh = value;
-    notifyListeners();
-  }
-
-  void setDateSelect(DateTime value) {
-    selectedDate = value;
     notifyListeners();
   }
 }
