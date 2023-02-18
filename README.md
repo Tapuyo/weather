@@ -1,6 +1,6 @@
 # weather
 
-A new Flutter project.
+24 hours challenge a weather forecast application
 
 ## Getting Started
 
@@ -13,4 +13,5 @@ A few resources to get you started if this is your first Flutter project:
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+samples, guidance on mobile development, and a full API reference. I use github authentication provider and
+use firebase for 3rd party library. For api weather i use https://api.openweathermap.org/. 
