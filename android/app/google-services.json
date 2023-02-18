@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "465479523727",
+    "project_id": "weather-799fb",
+    "storage_bucket": "weather-799fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465479523727:android:bd20924faf516f0a15fffa",
+        "android_client_info": {
+          "package_name": "com.ehrlich.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465479523727-thv61rm9gtulpmpocoebf1esiik3onur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjCGfXt5gWo5MVOC9xc3kgAeOcYg9n7os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465479523727-thv61rm9gtulpmpocoebf1esiik3onur.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465479523727-eped0tdngr5i1stk725ljj2g2op40i0u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ehrlich.weather"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

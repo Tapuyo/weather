@@ -45,5 +45,28 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
+    <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>com.googleusercontent.apps.465479523727-eped0tdngr5i1stk725ljj2g2op40i0u</string>
+        </array>
+	</dict>
+	<dict>
+		<key>CFBundleTypeRole</key>
+		<string>Editor</string>
+		<key>CFBundleURLName</key>
+		<string>auth</string>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>weather</string>
+		</array>
+    </dict>
+</array>
 </dict>
 </plist>

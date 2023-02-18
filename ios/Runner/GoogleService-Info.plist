@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>465479523727-eped0tdngr5i1stk725ljj2g2op40i0u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.465479523727-eped0tdngr5i1stk725ljj2g2op40i0u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDYENtQ-KD_zlkE-cmXPYIz6mb3k4-1bPQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>465479523727</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ehrlich.weather</string>
+	<key>PROJECT_ID</key>
+	<string>weather-799fb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>weather-799fb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:465479523727:ios:de7ec6182c48189615fffa</string>
+</dict>
+</plist>
